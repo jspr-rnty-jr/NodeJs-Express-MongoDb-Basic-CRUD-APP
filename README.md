@@ -7,4 +7,4 @@ Install all dependencies
 Run App
 `npm run dev`
 
-http://localhost:8000/api/posts
+http://localhost:8000/api/users
