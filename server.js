@@ -13,7 +13,7 @@ app.use(express.urlencoded({extended: false}));
 app.use(logger)
 
 // ROUTES
-app.use('/api', users);
+app.use('/api/users', users);
 
 mongoose.connect("mongodb+srv://jasperjrrantay:bp2er0tKZ3yEXpcG@cluster0.satefrs.mongodb.net/Cluster0?retryWrites=true&w=majority&appName=Cluster0")
     .then(() => {
